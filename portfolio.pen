@@ -1,0 +1,900 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "xJ3C8",
+      "x": 0,
+      "y": 0,
+      "name": "Portfolio",
+      "clip": true,
+      "width": 1440,
+      "fill": "#111111",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "zWdKr",
+          "name": "Nav",
+          "width": "fill_container",
+          "padding": [
+            20,
+            40
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "1xZtn",
+              "name": "logo",
+              "fill": "#F5F5F5",
+              "content": "TAN YING YING",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "300",
+              "letterSpacing": 3.2
+            },
+            {
+              "type": "frame",
+              "id": "GZFWt",
+              "name": "links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RiU4E",
+                  "name": "lk1",
+                  "fill": "#F5F5F5",
+                  "content": "Work",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "AGjMP",
+                  "name": "lk2",
+                  "fill": "#F5F5F5",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "1KrkO",
+                  "name": "lk3",
+                  "fill": "#F5F5F5",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jQPUt",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 800,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gokPM",
+              "name": "hl",
+              "fill": "#F5F5F5",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "Connecting iconic brands to the world's biggest entertainment",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "w61rT",
+              "name": "sub",
+              "fill": "#888888",
+              "content": "ENTERTAINMENT BRAND PARTNERSHIPS  ·  ASIA PACIFIC  ·  15+ YEARS",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "letterSpacing": 2.4
+            },
+            {
+              "type": "text",
+              "id": "bqRz0",
+              "name": "arr",
+              "fill": "#F0EAD6",
+              "content": "↓",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IDDeO",
+          "name": "Selected Work",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ede5d",
+              "name": "hd",
+              "fill": "#888888",
+              "content": "SELECTED WORK",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "letterSpacing": 4.8
+            },
+            {
+              "type": "frame",
+              "id": "pCURJ",
+              "name": "tr",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "beOsV",
+                  "name": "t1w",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e0bUu",
+                      "name": "t1t",
+                      "fill": "#F5F5F5",
+                      "content": "FEATURED",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "oyMWM",
+                      "name": "t1l",
+                      "fill": "#F0EAD6",
+                      "width": 70,
+                      "height": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "wbRZy",
+                  "name": "t2",
+                  "fill": "#888888",
+                  "content": "ALL WORK",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Bw0ne",
+              "name": "Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1tA9T",
+                  "name": "Row1",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "6JobK",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "name": "a1",
+                      "x": 0
+                    },
+                    {
+                      "id": "COdmd",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#0a1a0a",
+                            "position": 0
+                          },
+                          {
+                            "color": "#003300",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "a2",
+                      "x": 405.3333333333333,
+                      "descendants": {
+                        "CO8mB": {
+                          "width": "fit_content"
+                        },
+                        "dQAy2": {
+                          "content": "ASUS ROG"
+                        },
+                        "kRaiT": {
+                          "x": 89
+                        },
+                        "OrXJB": {
+                          "content": "GRAN TURISMO",
+                          "x": 107
+                        }
+                      }
+                    },
+                    {
+                      "id": "u9vN5",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#001522",
+                            "position": 0
+                          },
+                          {
+                            "color": "#002233",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "a3",
+                      "x": 810.6666666666666,
+                      "descendants": {
+                        "CO8mB": {
+                          "width": "fit_content"
+                        },
+                        "dQAy2": {
+                          "content": "GENTING CRUISES"
+                        },
+                        "kRaiT": {
+                          "x": 152
+                        },
+                        "OrXJB": {
+                          "content": "SPIDER-MAN: INTO THE SPIDER-VERSE",
+                          "x": 170
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wPLZD",
+                  "name": "Row2",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "MZSP7",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1a0a00",
+                            "position": 0
+                          },
+                          {
+                            "color": "#2e1500",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "b1",
+                      "x": 0,
+                      "descendants": {
+                        "CO8mB": {
+                          "width": "fit_content"
+                        },
+                        "dQAy2": {
+                          "content": "OREO"
+                        },
+                        "kRaiT": {
+                          "x": 52
+                        },
+                        "OrXJB": {
+                          "content": "SPIDER-MAN: FAR FROM HOME",
+                          "x": 70
+                        }
+                      }
+                    },
+                    {
+                      "id": "mviIT",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#001a0a",
+                            "position": 0
+                          },
+                          {
+                            "color": "#002211",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "b2",
+                      "x": 405.3333333333333,
+                      "descendants": {
+                        "CO8mB": {
+                          "width": "fit_content"
+                        },
+                        "dQAy2": {
+                          "content": "KLOOK"
+                        },
+                        "kRaiT": {
+                          "x": 63
+                        },
+                        "OrXJB": {
+                          "content": "JUMANJI: THE NEXT CHAPTER",
+                          "x": 81
+                        }
+                      }
+                    },
+                    {
+                      "id": "k47pE",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#0a0a1a",
+                            "position": 0
+                          },
+                          {
+                            "color": "#00001a",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "b3",
+                      "x": 810.6666666666666,
+                      "descendants": {
+                        "CO8mB": {
+                          "width": "fit_content"
+                        },
+                        "dQAy2": {
+                          "content": "TRAVELOKA"
+                        },
+                        "kRaiT": {
+                          "x": 103
+                        },
+                        "OrXJB": {
+                          "content": "SPIDER-MAN: ACROSS THE SPIDER-VERSE",
+                          "x": 121
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y4BY3",
+                  "name": "Row3",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "Bz4v5",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#001522",
+                            "position": 0
+                          },
+                          {
+                            "color": "#002233",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "c1",
+                      "x": 0,
+                      "descendants": {
+                        "CO8mB": {
+                          "width": "fit_content"
+                        },
+                        "dQAy2": {
+                          "content": "GEOX"
+                        },
+                        "kRaiT": {
+                          "x": 52
+                        },
+                        "OrXJB": {
+                          "content": "VENOM: THE LAST DANCE",
+                          "x": 70
+                        }
+                      }
+                    },
+                    {
+                      "id": "pLn0n",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1a1500",
+                            "position": 0
+                          },
+                          {
+                            "color": "#2e2200",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "c2",
+                      "x": 405.3333333333333,
+                      "descendants": {
+                        "CO8mB": {
+                          "width": "fit_content"
+                        },
+                        "dQAy2": {
+                          "content": "ROBOROCK"
+                        },
+                        "kRaiT": {
+                          "x": 97
+                        },
+                        "OrXJB": {
+                          "content": "GARFIELD",
+                          "x": 115
+                        }
+                      }
+                    },
+                    {
+                      "id": "zKvzD",
+                      "type": "ref",
+                      "ref": "Kt5Sq",
+                      "width": "fill_container",
+                      "height": 214,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1a000d",
+                            "position": 0
+                          },
+                          {
+                            "color": "#2e0011",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "c3",
+                      "x": 810.6666666666666,
+                      "descendants": {
+                        "CO8mB": {
+                          "width": "fit_content"
+                        },
+                        "dQAy2": {
+                          "content": "CHANGI AIRPORT"
+                        },
+                        "kRaiT": {
+                          "x": 144
+                        },
+                        "OrXJB": {
+                          "content": "SPIDER-MAN: FAR FROM HOME",
+                          "x": 162
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TtnMv",
+          "name": "About",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "B9IKC",
+              "name": "ah",
+              "fill": "#888888",
+              "content": "ABOUT",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "letterSpacing": 4.8
+            },
+            {
+              "type": "frame",
+              "id": "os1UU",
+              "name": "Columns",
+              "width": "fill_container",
+              "gap": 60,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lNjB5",
+                  "name": "lc",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MvCma",
+                      "name": "bio",
+                      "fill": "#F5F5F5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "I'm a brand partnerships specialist with 15+ years connecting the world's most iconic entertainment IP with admired global brands. Based in Singapore, I lead end-to-end partnerships across APAC — from strategy and deal negotiation to creative execution across paid, earned, and owned channels. Mandarin-fluent with deep relationships across Greater China, Southeast Asia, and beyond.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "300"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iFEGv",
+                  "name": "Headshot Placeholder",
+                  "width": 300,
+                  "height": 360,
+                  "fill": "#1A1A1A"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GNSoF",
+              "name": "Stats",
+              "width": "fill_container",
+              "gap": 60,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AvqwN",
+                  "name": "s1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nEUWy",
+                      "name": "s1v",
+                      "fill": "#F0EAD6",
+                      "content": "15+",
+                      "fontFamily": "Inter",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mJgFt",
+                      "name": "s1l",
+                      "fill": "#888888",
+                      "content": "YEARS",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "90tNy",
+                  "name": "s2",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7EtMl",
+                      "name": "s2v",
+                      "fill": "#F0EAD6",
+                      "content": "30+",
+                      "fontFamily": "Inter",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BkIKz",
+                      "name": "s2l",
+                      "fill": "#888888",
+                      "content": "PARTNERSHIPS",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BKlXv",
+                  "name": "s3",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fbm1W",
+                      "name": "s3v",
+                      "fill": "#F0EAD6",
+                      "content": "10+",
+                      "fontFamily": "Inter",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OPyLJ",
+                      "name": "s3l",
+                      "fill": "#888888",
+                      "content": "MARKETS",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "letterSpacing": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sYow6",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "gap": 32,
+          "padding": 40,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cicud",
+              "name": "f1",
+              "fill": "#888888",
+              "content": "Email",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "i8MNq",
+              "name": "f2",
+              "fill": "#888888",
+              "content": "LinkedIn",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "FAzZp",
+              "name": "f3",
+              "fill": "#888888",
+              "content": "© 2026 Tan Ying Ying",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Kt5Sq",
+      "x": 1600,
+      "y": 0,
+      "name": "CampaignCard",
+      "reusable": true,
+      "clip": true,
+      "width": 380,
+      "height": 214,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 135,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#1a1205",
+            "position": 0
+          },
+          {
+            "color": "#3d2b00",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "f7olv",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Overlay",
+          "width": 380,
+          "height": 214,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#00000000",
+                "position": 0.3
+              },
+              {
+                "color": "#000000DD",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "frame",
+          "id": "CO8mB",
+          "layoutPosition": "absolute",
+          "x": 16,
+          "y": 180,
+          "name": "LabelWrap",
+          "gap": 8,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "dQAy2",
+              "name": "Brand",
+              "fill": "#F0EAD6",
+              "content": "TUMI",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "kRaiT",
+              "name": "Sep",
+              "fill": "#888888",
+              "content": "×",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "OrXJB",
+              "name": "Film",
+              "fill": "#888888",
+              "content": "BULLET TRAIN",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
